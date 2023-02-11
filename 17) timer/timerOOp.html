@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/timer/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" class="form" onsubmit="app.submit(event)">
+            <div class="info">
+                Установить медитацию на
+                <input type="number" class="input" name="time" aria-label="Число минут для медитации" placeholder="10">
+                минут
+            </div>
+            <div class="countdown">
+                <div class="num" id="min-tens">0</div>
+                <div class="num" id="min">0</div>
+                <div class="dots">:</div>
+                <div class="num" id="sec-tens">0</div>
+                <div class="num" id="sec">0</div>
+            </div>
+            <button type="submit" class="btn">Запусить таймер</button>
+        </form>
+    </div>
+
+<script src="/timer/index.js"></script>
+</body>
+</html>
+
+
+

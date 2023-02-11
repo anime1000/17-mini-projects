@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+
+}
+.text {
+}
+.textmore {
+}
+.read {
+    padding: 10px 15px;
+}
+
+.textmore{
+    display: none;
+}
+
+.show__more .textmore{
+    display: block;
+}
